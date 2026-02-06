@@ -1,0 +1,19 @@
+# --- CORE FRAMEWORK ---
+PySide6          # UI Framework for the desktop interface
+pydantic         # Data models and validation (The "Source of Truth")
+
+# --- AI & VISION ---
+ollama           # Official Python client for local Llama 3.2 synthesis
+aiohttp          # Required for asynchronous network calls to Ollama
+torch            # Backend for CLIP and Florence-2 (Vision models)
+transformers     # HuggingFace interface for Florence-2/Moondream2
+pillow           # Image processing for thumbnail manipulation
+
+# --- MEDIA ENGINE ---
+opencv-python    # Core CV2 for frame analysis and thumbnailing
+scenedetect      # Specialized library for shot boundary detection
+python-ffmpeg    # Python wrapper for FFmpeg process management
+
+# --- DATA & EXPORTS ---
+pandas           # Data manipulation for shot-list formatting
+xlsxwriter       # Superior to openpyxl for embedding images/thumbnails in Excel
